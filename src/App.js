@@ -10,7 +10,6 @@ import { useStateValue } from "./StateProvider";
 function App() {
   const [{user}, dispatch] = useStateValue();
  
-  if (user) console.log('Cia quan: ', user)
   return (
     <div className="app">
       {

@@ -2,6 +2,11 @@ import React from 'react'
 import './Header.css'
 import SearchIcon from '@material-ui/icons/Search';
 import HomeIcon from '@material-ui/icons/Home';
+import FlagIcon from "@material-ui/icons/Flag";
+import SubscriptionsIcon from "@material-ui/icons/Subscriptions";
+import StorefrontOutlinedIcon from "@material-ui/icons/StorefrontOutlined";
+import SupervisorAccountIcon from "@material-ui/icons/SupervisorAccount";
+
 import { Avatar, IconButton } from '@material-ui/core';
 
 import AddIcon from '@material-ui/icons/Add';
@@ -33,17 +38,19 @@ function Header() {
         </div>
         
         <div className="header__option">
-          <HomeIcon />
+          <FlagIcon />
         </div>
 
         <div className="header__option">
-          <HomeIcon />
+          <SubscriptionsIcon />
         </div>
 
         <div className="header__option">
-          <HomeIcon />
+          <StorefrontOutlinedIcon />
         </div>
-
+        <div className="header__option">
+          <SupervisorAccountIcon />
+        </div>
       </div>
 
       <div className="header__right">
